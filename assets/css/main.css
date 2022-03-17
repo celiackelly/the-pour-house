@@ -2678,6 +2678,19 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+/* Iframes */
+
+.iframe-div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.iframe-div iframe {
+	margin: 1rem 1rem 2rem 1rem;
+	flex: 1 1 0; 
+}
+
 /* Actions */
 
 	ul.actions {
